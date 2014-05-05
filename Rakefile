@@ -3,7 +3,7 @@ require 'rake'
 require 'yaml'
 require 'time'
 
-SOURCE = "."
+SOURCE = "./jektest/"
 CONFIG = {
   'version' => "0.3.0",
   'themes' => File.join(SOURCE, "_includes", "themes"),
@@ -20,7 +20,7 @@ module JB
     Paths = {
       :layouts => "_layouts",
       :themes => "_includes/themes",
-      :theme_assets => "jektest/assets/themes",
+      :theme_assets => "assets/themes",
       :theme_packages => "_theme_packages",
       :posts => "_posts"
     }
