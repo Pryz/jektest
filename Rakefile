@@ -3,7 +3,7 @@ require 'rake'
 require 'yaml'
 require 'time'
 
-SOURCE = "./jektest/"
+SOURCE = "."
 CONFIG = {
   'version' => "0.3.0",
   'themes' => File.join(SOURCE, "_includes", "themes"),
